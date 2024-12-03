@@ -1,0 +1,176 @@
+# Descriptive Statistics
+
+Here we are going to show how to do descrptive statistics in r and python
+
+
+```{r}
+#| echo: false
+#| warning: false
+#| eval: false
+#| output: false
+library(reticulate)
+reticulate::use_condaenv('andat')
+
+```
+
+::: {.panel-tabset group="language"}
+#### R
+```{r}
+x <- c(1,2,3,3,3,4,5)
+
+```
+
+#### Python
+
+
+```{python}
+
+import statistics 
+
+x = [1,2,3,3,3,4,5]
+```
+
+
+:::
+
+::: {.panel-tabset group="language"}
+
+#### R
+```{r}
+mean(x)
+```
+
+```{python}
+
+statistics.mean(x)
+
+```
+
+
+:::
+
+::: {.panel-tabset group="language"}
+#### R
+```{r}
+var(x)
+```
+
+```{python}
+
+statistics.variance(x)
+
+```
+
+#### Python
+
+:::
+
+::: {.panel-tabset group="language"}
+#### R
+```{r}
+range(x)
+```
+
+#### Python
+
+```{python}
+
+```
+
+
+
+:::
+
+::: {.panel-tabset group="language"}
+#### R
+```{r}
+max(x)
+```
+
+```{python}
+max(x)
+```
+
+#### Python
+
+:::
+
+::: {.panel-tabset group="language"}
+#### R
+```{r}
+min(x)
+```
+
+```{python}
+min(x)
+```
+
+#### Python
+
+:::
+
+::: {.panel-tabset group="language"}
+#### R
+```{r}
+median(x)
+```
+
+
+#### Python
+```{python}
+statistics.median(x)
+```
+
+:::
+
+::: {.panel-tabset group="language"}
+#### R
+```{r}
+quantile(x,0.75)
+```
+
+#### Python
+```{python}
+
+```
+:::
+
+::: {.panel-tabset group="language"}
+#### R
+```{r}
+library(DescTools)
+Skew(x)
+```
+
+#### Python
+```{python}
+
+```
+:::
+
+::: {.panel-tabset group="language"}
+#### R
+```{r}
+Kurt(x)
+```
+
+#### Python
+```{python}
+
+```
+:::
+
+::: {.panel-tabset group="language"}
+#### R
+```{r}
+Desc(x)
+
+```
+#### Python
+```{python}
+
+
+```
+:::
+
+

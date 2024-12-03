@@ -1,0 +1,22 @@
+# Two Sample Nonparametric Test
+
+Here we are going to show how to do one sample nonparametric test in r and python
+```{r}
+#| echo: false
+#| warning: false
+#| eval: false
+#| output: false
+library(reticulate)
+reticulate::use_condaenv('andat')
+
+```
+
+```{r}
+
+
+```
+
+```{python}
+import pandas as pd
+
+```

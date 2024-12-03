@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>R and Python Coding Handbook for Undergraduate Statistic - 7&nbsp; One Sample Nonparametric Test</title>
+<title>R and Python Coding Handbook for Undergraduate Statistic - 13&nbsp; One Sample Nonparametric Test</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -117,7 +117,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../10_nonparametric analysis.html">Nonparametric Analysis</a></li><li class="breadcrumb-item"><a href="../10_nonparametric analysis/10_01_one sample test.html"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">One Sample Nonparametric Test</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../10_nonparametric analysis.html">Nonparametric Analysis</a></li><li class="breadcrumb-item"><a href="../10_nonparametric analysis/10_01_one sample test.html"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">One Sample Nonparametric Test</span></a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -205,8 +205,51 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
-      <span class="sidebar-item-text sidebar-link text-start">
- <span class="menu-text">02_intro to statistics.qmd</span></span>
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+ <span class="menu-text">02_intro to statistics.qmd</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../02_intro to statistic/02_01_descriptive statistics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Descriptive Statistics</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../02_intro to statistic/02_02_mean test.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">02_02_mean test.html</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../02_intro to statistic/02_03_variance test.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">02_03_variance test.html</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../02_intro to statistic/02_04_correlation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">02_04_correlation.html</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../02_intro to statistic/02_05_regression.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">02_05_regression.html</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../02_intro to statistic/02_06_anova.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">02_06_anova.html</span></span></a>
+  </div>
+</li>
+      </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <span class="sidebar-item-text sidebar-link text-start">
@@ -248,7 +291,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../10_nonparametric analysis/10_01_one sample test.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">One Sample Nonparametric Test</span></span></a>
+ <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">One Sample Nonparametric Test</span></span></a>
   </div>
 </li>
       </ul>
@@ -317,19 +360,19 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#runs-test" id="toc-runs-test" class="nav-link active" data-scroll-target="#runs-test"><span class="header-section-number">7.1</span> Runs Test</a></li>
-  <li><a href="#sign-test" id="toc-sign-test" class="nav-link" data-scroll-target="#sign-test"><span class="header-section-number">7.2</span> Sign Test</a></li>
-  <li><a href="#wilcoxon-test" id="toc-wilcoxon-test" class="nav-link" data-scroll-target="#wilcoxon-test"><span class="header-section-number">7.3</span> Wilcoxon Test</a></li>
-  <li><a href="#binomial-test" id="toc-binomial-test" class="nav-link" data-scroll-target="#binomial-test"><span class="header-section-number">7.4</span> Binomial Test</a></li>
+  <li><a href="#runs-test" id="toc-runs-test" class="nav-link active" data-scroll-target="#runs-test"><span class="header-section-number">13.1</span> Runs Test</a></li>
+  <li><a href="#sign-test" id="toc-sign-test" class="nav-link" data-scroll-target="#sign-test"><span class="header-section-number">13.2</span> Sign Test</a></li>
+  <li><a href="#wilcoxon-test" id="toc-wilcoxon-test" class="nav-link" data-scroll-target="#wilcoxon-test"><span class="header-section-number">13.3</span> Wilcoxon Test</a></li>
+  <li><a href="#binomial-test" id="toc-binomial-test" class="nav-link" data-scroll-target="#binomial-test"><span class="header-section-number">13.4</span> Binomial Test</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../10_nonparametric analysis.html">Nonparametric Analysis</a></li><li class="breadcrumb-item"><a href="../10_nonparametric analysis/10_01_one sample test.html"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">One Sample Nonparametric Test</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../10_nonparametric analysis.html">Nonparametric Analysis</a></li><li class="breadcrumb-item"><a href="../10_nonparametric analysis/10_01_one sample test.html"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">One Sample Nonparametric Test</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">One Sample Nonparametric Test</span></h1>
+<h1 class="title"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">One Sample Nonparametric Test</span></h1>
 </div>
 
 
@@ -347,8 +390,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 <p>Here we are going to show how to do one sample nonparametric test in r and python</p>
-<section id="runs-test" class="level2" data-number="7.1">
-<h2 data-number="7.1" class="anchored" data-anchor-id="runs-test"><span class="header-section-number">7.1</span> Runs Test</h2>
+<section id="runs-test" class="level2" data-number="13.1">
+<h2 data-number="13.1" class="anchored" data-anchor-id="runs-test"><span class="header-section-number">13.1</span> Runs Test</h2>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
 <ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" aria-current="page">R</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Python</a></li></ul>
 <div class="tab-content">
@@ -395,8 +438,8 @@ median of the differences
 </div>
 </div>
 </section>
-<section id="sign-test" class="level2" data-number="7.2">
-<h2 data-number="7.2" class="anchored" data-anchor-id="sign-test"><span class="header-section-number">7.2</span> Sign Test</h2>
+<section id="sign-test" class="level2" data-number="13.2">
+<h2 data-number="13.2" class="anchored" data-anchor-id="sign-test"><span class="header-section-number">13.2</span> Sign Test</h2>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
 <ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-2-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-1" role="tab" aria-controls="tabset-2-1" aria-selected="true">R</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-2" role="tab" aria-controls="tabset-2-2" aria-selected="false">Python</a></li></ul>
 <div class="tab-content">
@@ -440,8 +483,8 @@ median of the differences
 </div>
 </div>
 </section>
-<section id="wilcoxon-test" class="level2" data-number="7.3">
-<h2 data-number="7.3" class="anchored" data-anchor-id="wilcoxon-test"><span class="header-section-number">7.3</span> Wilcoxon Test</h2>
+<section id="wilcoxon-test" class="level2" data-number="13.3">
+<h2 data-number="13.3" class="anchored" data-anchor-id="wilcoxon-test"><span class="header-section-number">13.3</span> Wilcoxon Test</h2>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
 <ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-3-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-1" role="tab" aria-controls="tabset-3-1" aria-selected="true">R</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-3-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-2" role="tab" aria-controls="tabset-3-2" aria-selected="false">Python</a></li></ul>
 <div class="tab-content">
@@ -482,8 +525,8 @@ alternative hypothesis: true location is not equal to 3</code></pre>
 </div>
 </div>
 </section>
-<section id="binomial-test" class="level2" data-number="7.4">
-<h2 data-number="7.4" class="anchored" data-anchor-id="binomial-test"><span class="header-section-number">7.4</span> Binomial Test</h2>
+<section id="binomial-test" class="level2" data-number="13.4">
+<h2 data-number="13.4" class="anchored" data-anchor-id="binomial-test"><span class="header-section-number">13.4</span> Binomial Test</h2>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
 <ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-4-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-4-1" role="tab" aria-controls="tabset-4-1" aria-selected="true">R</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-4-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-4-2" role="tab" aria-controls="tabset-4-2" aria-selected="false">Python</a></li></ul>
 <div class="tab-content">

@@ -19,6 +19,13 @@ book:
         - 01_intro to r and python/01_05_loop.qmd
         - 01_intro to r and python/01_06_function.qmd
     - part: 02_intro to statistics.qmd
+      chapters:
+        - 02_intro to statistic/02_01_descriptive statistics.qmd
+        - 02_intro to statistic/02_02_mean test.qmd
+        - 02_intro to statistic/02_03_variance test.qmd
+        - 02_intro to statistic/02_04_correlation.qmd
+        - 02_intro to statistic/02_05_regression.qmd    
+        - 02_intro to statistic/02_06_anova.qmd  
   
     - part: 03_intro to probability.qmd
     - part: 04_numerical analysis.qmd
